@@ -1,0 +1,111 @@
+:root {
+  --color-primary: #4caf50;
+  --color-secondary: #ff5722;
+  --color-grey: #202020;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* background colors */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-grey {
+  background-color: var(--color-grey);
+}
+
+/* text colors */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-grey {
+  color: var(--color-grey);
+}
+
+/* fonts */
+.font-primary {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-secondary {
+  font-family: Consolas, sans-serif;
+}
+
+.jumbotron {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/assets/srenio.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
+.img-fluid {
+  width: 100px;
+  height: 41px;
+}
+
+.nav-container {
+  max-width: 500px;
+}
+
+.lazy {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.h-min {
+  min-height: 250px;
+}
+
+#paw-0 {
+  top: -10px;
+  left: 0px;
+}
+
+#paw-1 {
+  top: -40px;
+  left: -5px;
+}
+
+.paw-container-l {
+	left: 5px;
+}
+
+.paw-container-r {
+	right: 5px;
+}
+
+footer {
+	min-height: 200px;
+}
+
+@media (min-width: 640px) {
+  .img-fluid {
+    width: 145px;
+    height: 59px;
+  }
+
+  #paw-1 {
+    top: -50px;
+  }
+}
