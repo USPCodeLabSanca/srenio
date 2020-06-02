@@ -1,11 +1,13 @@
 :root {
   --color-primary: #4caf50;
   --color-secondary: #ff5722;
+  --color-white: #fafafa;
   --color-grey: #202020;
 }
 
 body {
   font-family: Verdana, Geneva, sans-serif;
+  background-color: var(--color-white);
 }
 
 /* background colors */
